@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover Uzbekistan with LuxTrip",
+    "subtitle": "Best hotels, restaurants and attractions in one place",
+    "cta": "Start Journey"
+  },
+  "home": {
+    "popular_regions": "Popular Destinations",
+    "places_title": "Where to go",
+    "why_us_title": "Why Choose Us",
+    "faq_title": "Frequently Asked Questions",
+    "explore": "Explore Uzbekistan",
+    "regions_subtitle": "From ancient cities to modern metropolises",
+    "places_subtitle": "Must-visit historical and cultural landmarks",
+    "cta_title": "Ready for Adventure?",
+    "cta_subtitle": "Book your next trip across Uzbekistan today."
+  },
+  "why_us": {
+    "reliability": {
+      "title": "Reliability",
+      "desc": "We guarantee the safety and quality of every trip."
+    },
+    "routes": {
+      "title": "Best Routes",
+      "desc": "Carefully selected locations for unforgettable experiences."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "desc": "Our team is always in touch to help you at any time."
+    },
+    "service": {
+      "title": "Convenient Service",
+      "desc": "Simple booking and an individual approach to each client."
+    }
+  },
+  "faq": {
+    "q1": {
+      "q": "How to book?",
+      "a": "You can book a service through our website or by contacting us directly."
+    },
+    "q2": {
+      "q": "Can I cancel?",
+      "a": "Yes, cancellation is possible in accordance with the booking rules of the specific service."
+    },
+    "q3": {
+      "q": "Which regions are available?",
+      "a": "We work throughout Uzbekistan, including Samarkand, Bukhara, Khiva and other regions."
+    }
+  },
+  "filter": {
+    "title": "Filters",
+    "all": "All",
+    "region": "Region",
+    "type": "Type",
+    "search": "Search...",
+    "search_placeholder": "Search services...",
+    "all_regions": "All Regions",
+    "all_types": "All Types",
+    "clear": "Clear Filters",
+    "not_found": "No services found matching your criteria.",
+    "no_results": "No results found",
+    "no_results_subtitle": "Try changing your search parameters or filters."
+  },
+  "type": {
+    "hotel": "Hotel",
+    "restaurant": "Restaurant",
+    "place": "Place"
+  },
+  "common": {
+    "view_details": "View Details",
+    "book_now": "Book Now",
+    "back_to_home": "Back to Home",
+    "night": "night",
+    "free_entry": "Free Entry",
+    "starting_from": "From",
+    "entry_fee": "Entry Fee",
+    "need_help": "Need Help?",
+    "support_text": "Contact our support team for any questions.",
+    "features": "Key Features",
+    "verified": "Verified Service",
+    "best_price": "Best Price Guarantee",
+    "support_24_7": "24/7 Support",
+    "authentic": "Authentic Experience",
+    "per_night": "/ night",
+    "view_all": "View All"
+  },
+  "about": {
+    "mission": "Our mission: developing domestic tourism in Uzbekistan",
+    "story": "Our Story",
+    "redefining": "Redefining Travel",
+    "description": "Founded in 2026, LuxTrip was born from a simple vision: to create travel experiences that go beyond the ordinary. We believe that luxury is not just a destination, but a seamless journey.",
+    "years": "Years of Experience",
+    "clients": "Happy Clients",
+    "destinations": "Destinations",
+    "partners": "Partners",
+    "mission_title": "Our Mission",
+    "team_title": "Our Team",
+    "team_description": "A global network of travel experts, concierges, and local guides dedicated to creating your perfect itinerary.",
+    "values_title": "Our Values",
+    "values_description": "Integrity, excellence, and a passion for discovery are at the core of everything we do at LuxTrip.",
+    "award_text": "Awarded 'Best Luxury Travel Agency 2025' by World Travel Awards."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our experts are ready to help you plan your next trip.",
+    "get_in_touch": "Get in Touch",
+    "call": "Call Us",
+    "email": "Email Us",
+    "visit": "Visit Us",
+    "name": "Your Name",
+    "email_label": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Thank you! Your message has been sent successfully.",
+    "hours": "Mon - Fri, 9am - 6pm",
+    "reply_time": "We reply within 24 hours",
+    "address": "Tashkent, Uzbekistan",
+    "view_map": "View on Map"
+  },
+  "region": {
+    "explore_subtitle": "Discover the best in {{region}} region",
+    "no_services": "No services available for this region yet."
+  },
+  "footer": {
+    "quick_links": "Quick Links",
+    "regions": "Regions",
+    "contact_info": "Contact Info",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

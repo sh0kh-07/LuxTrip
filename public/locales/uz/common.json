@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Asosiy",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "contact": "Kontaktlar"
+  },
+  "hero": {
+    "title": "O'zbekistonni LuxTrip bilan kashf eting",
+    "subtitle": "Eng yaxshi mehmonxonalar, restoranlar va diqqatga sazovor joylar bir joyda",
+    "cta": "Sayohatni boshlash"
+  },
+  "home": {
+    "popular_regions": "Ommabop yo'nalishlar",
+    "places_title": "Qayerga borish",
+    "why_us_title": "Nega aynan biz",
+    "faq_title": "Ko'p beriladigan savollar",
+    "explore": "O'zbekistonni o'rganing",
+    "regions_subtitle": "Qadimiy shaharlardan zamonaviy megapolislargacha",
+    "places_subtitle": "Tashrif buyurish shart bo'lgan tarixiy va madaniy obidalar",
+    "cta_title": "Sarguzashtlarga tayyormisiz?",
+    "cta_subtitle": "O'zbekiston bo'ylab keyingi sayohatingizni bugun band qiling."
+  },
+  "why_us": {
+    "reliability": {
+      "title": "Ishonchlilik",
+      "desc": "Biz har bir sayohatning xavfsizligi va sifatini kafolatlaymiz."
+    },
+    "routes": {
+      "title": "Eng yaxshi yo'nalishlar",
+      "desc": "Unutilmas taassurotlar uchun ehtiyotkorlik bilan tanlangan joylar."
+    },
+    "support": {
+      "title": "24/7 qo'llab-quvvatlash",
+      "desc": "Bizning jamoamiz har qanday vaqtda sizga yordam berish uchun doimo aloqada."
+    },
+    "service": {
+      "title": "Qulay xizmat",
+      "desc": "Oddiy band qilish va har bir mijozga individual yondashuv."
+    }
+  },
+  "faq": {
+    "q1": {
+      "q": "Qanday band qilish mumkin?",
+      "a": "Siz xizmatni veb-saytimiz orqali yoki biz bilan bevosita bog'lanish orqali band qilishingiz mumkin."
+    },
+    "q2": {
+      "q": "Bekor qilish mumkinmi?",
+      "a": "Ha, bekor qilish muayyan xizmatni band qilish qoidalariga muvofiq amalga oshirilishi mumkin."
+    },
+    "q3": {
+      "q": "Qaysi viloyatlar mavjud?",
+      "a": "Biz butun O'zbekiston bo'ylab, jumladan Samarqand, Buxoro, Xiva va boshqa viloyatlarda ishlaymiz."
+    }
+  },
+  "filter": {
+    "title": "Filtrlar",
+    "all": "Barchasi",
+    "region": "Viloyat",
+    "type": "Turi",
+    "search": "Qidiruv...",
+    "search_placeholder": "Xizmatlarni qidirish...",
+    "all_regions": "Barcha viloyatlar",
+    "all_types": "Barcha turlar",
+    "clear": "Filtrlarni tozalash",
+    "not_found": "Sizning so'rovingiz bo'yicha xizmatlar topilmadi.",
+    "no_results": "Natijalar topilmadi",
+    "no_results_subtitle": "Qidiruv parametrlarini yoki filtrlarni o'zgartirib ko'ring."
+  },
+  "type": {
+    "hotel": "Mehmonxona",
+    "restaurant": "Restoran",
+    "place": "Joy"
+  },
+  "common": {
+    "view_details": "Batafsil",
+    "book_now": "Band qilish",
+    "back_to_home": "Asosiy sahifaga qaytish",
+    "night": "tun",
+    "free_entry": "Bepul kirish",
+    "starting_from": "Dan",
+    "entry_fee": "Kirish",
+    "need_help": "Yordam kerakmi?",
+    "support_text": "Har qanday savol bo'yicha qo'llab-quvvatlash jamoamizga murojaat qiling.",
+    "features": "Asosiy xususiyatlar",
+    "verified": "Tasdiqlangan xizmat",
+    "best_price": "Eng yaxshi narx kafolati",
+    "support_24_7": "24/7 qo'llab-quvvatlash",
+    "authentic": "Haqiqiy tajriba",
+    "per_night": "/ tun",
+    "view_all": "Barchasini ko'rish"
+  },
+  "about": {
+    "mission": "Bizning missiyamiz: O'zbekistonda ichki turizmni rivojlantirish",
+    "story": "Bizning tariximiz",
+    "redefining": "Sayohatni qayta talqin qilish",
+    "description": "2026-yilda tashkil etilgan LuxTrip oddiy tasavvurdan tug'ilgan: odatdagidan tashqari sayohat tajribalarini yaratish. Biz ishonamizki, hashamat nafaqat manzil, balki mukammal sayohatdir.",
+    "years": "Yillik tajriba",
+    "clients": "Baxtli mijozlar",
+    "destinations": "Yo'nalishlar",
+    "partners": "Hamkorlar",
+    "mission_title": "Bizning missiyamiz",
+    "team_title": "Bizning jamoamiz",
+    "team_description": "Sizning mukammal marshrutingizni yaratishga bag'ishlangan sayohat ekspertlari, konsyerjlar va mahalliy gidlar tarmog'i.",
+    "values_title": "Bizning qadriyatlarimiz",
+    "values_description": "Halollik, mukammallik va kashfiyotga bo'lgan ishtiyoq LuxTrip-da qilayotgan har bir ishimizning asosidir.",
+    "award_text": "World Travel Awards tomonidan '2025-yilning eng yaxshi hashamatli sayohat agentligi' deb topilgan."
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Bizning mutaxassislarimiz keyingi sayohatingizni rejalashtirishda yordam berishga tayyor.",
+    "get_in_touch": "Bog'lanish",
+    "call": "Bizga qo'ng'iroq qiling",
+    "email": "Bizga yozing",
+    "visit": "Bizga tashrif buyuring",
+    "name": "Ismingiz",
+    "email_label": "Email manzili",
+    "message": "Xabar",
+    "send": "Xabarni yuborish",
+    "success": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi.",
+    "hours": "Dush - Jum, 9:00 - 18:00",
+    "reply_time": "Biz 24 soat ichida javob beramiz",
+    "address": "Toshkent, O'zbekiston",
+    "view_map": "Xaritada ko'rish"
+  },
+  "region": {
+    "explore_subtitle": "{{region}} viloyatidagi eng yaxshi joylarni kashf eting",
+    "no_services": "Ushbu viloyat uchun hozircha xizmatlar mavjud emas."
+  },
+  "footer": {
+    "quick_links": "Tezkor havolalar",
+    "regions": "Viloyatlar",
+    "contact_info": "Kontaktlar",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  }
+}

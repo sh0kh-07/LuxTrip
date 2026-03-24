@@ -1,0 +1,79 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Plane } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
+export default function Footer() {
+  const { t } = useTranslation();
+
+  return (
+    <footer className="bg-white border-t border-brand/5 pt-20 pb-10 px-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="space-y-6">
+          <Link to="/" className="flex items-center gap-2">
+            <div className="w-10 h-10 bg-brand rounded-xl flex items-center justify-center">
+              <Plane className="text-white w-6 h-6 -rotate-45" />
+            </div>
+            <span className="text-2xl font-bold tracking-tighter text-brand">LUX<span className="text-text-main">TRIP</span></span>
+          </Link>
+          <p className="text-text-muted text-sm leading-relaxed">
+            {t('about.mission')}
+          </p>
+          <div className="flex gap-4">
+            {[Facebook, Instagram, Twitter].map((Icon, i) => (
+              <a key={i} href="#" className="w-10 h-10 rounded-full bg-bg-light flex items-center justify-center hover:bg-brand hover:text-white transition-all text-brand">
+                <Icon className="w-5 h-5" />
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 className="text-text-main font-bold mb-6">Quick Links</h4>
+          <ul className="space-y-4 text-sm text-text-muted">
+            <li><Link to="/" className="hover:text-brand transition-colors">{t('nav.home')}</Link></li>
+            <li><Link to="/services" className="hover:text-brand transition-colors">{t('nav.services')}</Link></li>
+            <li><Link to="/about" className="hover:text-brand transition-colors">{t('nav.about')}</Link></li>
+            <li><Link to="/contact" className="hover:text-brand transition-colors">{t('nav.contact')}</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-text-main font-bold mb-6">Regions</h4>
+          <ul className="space-y-4 text-sm text-text-muted">
+            <li><Link to="/region/Samarkand" className="hover:text-brand transition-colors">Samarkand</Link></li>
+            <li><Link to="/region/Bukhara" className="hover:text-brand transition-colors">Bukhara</Link></li>
+            <li><Link to="/region/Khiva" className="hover:text-brand transition-colors">Khiva</Link></li>
+            <li><Link to="/region/Tashkent" className="hover:text-brand transition-colors">Tashkent</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-text-main font-bold mb-6">Contact Info</h4>
+          <ul className="space-y-4 text-sm text-text-muted">
+            <li className="flex items-center gap-3">
+              <Phone className="w-4 h-4 text-brand" />
+              <span>+998 71 123 45 67</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <Mail className="w-4 h-4 text-brand" />
+              <span>info@luxtrip.uz</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <MapPin className="w-4 h-4 text-brand" />
+              <span>Tashkent, Uzbekistan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto pt-8 border-t border-brand/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-text-muted">
+        <p>© 2026 LuxTrip. All rights reserved.</p>
+        <div className="flex gap-6">
+          <a href="#" className="hover:text-brand transition-colors">Privacy Policy</a>
+          <a href="#" className="hover:text-brand transition-colors">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
