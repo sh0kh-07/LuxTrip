@@ -39,8 +39,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg md:text-xl mb-0.5 md:mb-1">{t('contact.call')}</h4>
-                  <p className="text-text-muted text-base md:text-lg">+998 71 123 45 67</p>
-                  <p className="text-text-muted/60 text-xs md:text-sm">{t('contact.hours')}</p>
+                  <div className="flex flex-col gap-1">
+                    <p className="text-text-muted text-base md:text-lg">+998 91 023 72 72</p>
+                    <p className="text-text-muted text-base md:text-lg">+998 99 616 72 72</p>
+                    <p className="text-text-muted text-base md:text-lg">+998 99 940 00 23</p>
+                  </div>
+                  <p className="text-text-muted/60 text-xs md:text-sm mt-1">{t('contact.hours')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 md:gap-6 group">
@@ -124,14 +128,14 @@ export default function Contact() {
               )}
             </motion.form>
 
-            <div className="aspect-video rounded-[24px] sm:rounded-[32px] md:rounded-[40px] overflow-hidden card-shadow border border-brand/5 relative group cursor-pointer">
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1000')] bg-cover bg-center grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white/90 backdrop-blur-lg px-6 md:px-8 py-3 md:py-4 rounded-full flex items-center gap-2 md:gap-3 shadow-xl border border-brand/5">
-                  <MapPin className="text-brand w-5 h-5 md:w-6 md:h-6" />
-                  <span className="font-bold text-sm md:text-base text-text-main">{t('contact.view_map')}</span>
-                </div>
-              </div>
+            <div className="aspect-video rounded-[24px] sm:rounded-[32px] md:rounded-[40px] overflow-hidden card-shadow border border-brand/5 relative group">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3035.028388428679!2d68.77866207601384!3d40.474636971430336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDI4JzI4LjciTiA2OMKwNDYnNTIuNSJF!5e0!3m2!1sru!2s!4v1774508566595!5m2!1sru!2s" 
+                className="w-full h-full border-0" 
+                allowFullScreen={false} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

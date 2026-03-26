@@ -1,5 +1,5 @@
 export type ServiceType = 'hotel' | 'restaurant' | 'place';
-export type Region = 'Tashkent' | 'Samarkand' | 'Bukhara' | 'Khiva' | 'Fergana' | 'Namangan' | 'Andijan';
+export type Region = 'Tashkent' | 'Samarkand' | 'Bukhara' | 'Khiva' | 'Khorezm' | 'Fergana' | 'Namangan' | 'Andijan' | 'Jizzakh' | 'Kashkadarya' | 'Navoi' | 'Sirdaryo' | 'Surkhandarya' | 'Karakalpakstan';
 
 export interface Service {
   id: string;
@@ -15,7 +15,7 @@ export interface Service {
   gallery: string[];
 }
 
-export const REGIONS: Region[] = ['Tashkent', 'Samarkand', 'Bukhara', 'Khiva', 'Fergana', 'Namangan', 'Andijan'];
+export const REGIONS: Region[] = ['Tashkent', 'Samarkand', 'Bukhara', 'Khiva', 'Khorezm', 'Fergana', 'Namangan', 'Andijan', 'Jizzakh', 'Kashkadarya', 'Navoi', 'Sirdaryo', 'Surkhandarya', 'Karakalpakstan'];
 
 export const SERVICES: Service[] = [
   {

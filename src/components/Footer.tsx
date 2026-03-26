@@ -51,9 +51,13 @@ export default function Footer() {
         <div>
           <h4 className="text-text-main font-bold mb-6">Contact Info</h4>
           <ul className="space-y-4 text-sm text-text-muted">
-            <li className="flex items-center gap-3">
-              <Phone className="w-4 h-4 text-brand" />
-              <span>+998 71 123 45 67</span>
+            <li className="flex items-start gap-3">
+              <Phone className="w-4 h-4 text-brand mt-1" />
+              <div className="flex flex-col gap-1">
+                <span>+998 91 023 72 72</span>
+                <span>+998 99 616 72 72</span>
+                <span>+998 99 940 00 23</span>
+              </div>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-brand" />
@@ -61,7 +65,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="w-4 h-4 text-brand" />
-              <span>Tashkent, Uzbekistan</span>
+              <span>{t('contact.address')}</span>
             </li>
           </ul>
         </div>

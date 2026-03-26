@@ -120,8 +120,12 @@
     "success": "Thank you! Your message has been sent successfully.",
     "hours": "Mon - Fri, 9am - 6pm",
     "reply_time": "We reply within 24 hours",
-    "address": "Tashkent, Uzbekistan",
+    "address": "Syrdarya region, Gulistan city, Yangi bozor, shop 77",
     "view_map": "View on Map"
+  },
+  "founders": {
+    "title": "Our Founders",
+    "description": "Feruz, Zarina, and Sevinch are the founders of the LLC that owns LuxTrip. Under their leadership, we provide clients with the best travel experiences."
   },
   "region": {
     "explore_subtitle": "Discover the best in {{region}} region",

@@ -120,8 +120,12 @@
     "success": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi.",
     "hours": "Dush - Jum, 9:00 - 18:00",
     "reply_time": "Biz 24 soat ichida javob beramiz",
-    "address": "Toshkent, O'zbekiston",
+    "address": "Sirdaryo viloyati Guliston shahar, Yangi bozor, 77-do'kon",
     "view_map": "Xaritada ko'rish"
+  },
+  "founders": {
+    "title": "Bizning Ta'sischilarimiz",
+    "description": "Feruz, Zarina va Sevinch - LuxTrip kompaniyasiga egalik qiluvchi ushbu MCHJ asoschilari. Ularning boshqaruvida biz mijozlarga eng yaxshi xizmatlarni taqdim etamiz."
   },
   "region": {
     "explore_subtitle": "{{region}} viloyatidagi eng yaxshi joylarni kashf eting",

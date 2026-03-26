@@ -89,6 +89,20 @@ export default function About() {
           </div>
         </div>
       </section>
+      {/* Founders */}
+      <section className="px-6 max-w-7xl mx-auto">
+        <div className="bg-brand text-white rounded-[40px] p-10 md:p-16 card-shadow relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-black/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+          <div className="relative z-10 max-w-3xl space-y-8">
+            <h2 className="text-3xl md:text-5xl font-black tracking-tighter">{t('founders.title')}</h2>
+            <p className="text-lg md:text-xl text-white/90 leading-relaxed font-medium">
+              {t('founders.description')}
+            </p>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
