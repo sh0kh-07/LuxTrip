@@ -11,10 +11,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-brand rounded-xl flex items-center justify-center">
-              <Plane className="text-white w-6 h-6 -rotate-45" />
-            </div>
-            <span className="text-2xl font-bold tracking-tighter text-brand">LUX<span className="text-text-main">TRIP</span></span>
+          
+            <span className="text-2xl font-bold tracking-tighter text-brand">Lux<span className="text-text-main">Trip</span></span>
           </Link>
           <p className="text-text-muted text-sm leading-relaxed">
             {t('about.mission')}
