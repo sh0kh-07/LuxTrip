@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../lib/utils';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
+import logo from '../logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,15 +42,15 @@ export default function Navbar() {
             : 'bg-white border-b border-brand/5 shadow-sm'
       )}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-1 sm:gap-4">
+      <div className="max-w-7xl  mx-auto flex items-center justify-between gap-1 sm:gap-4">
         <Link to="/" className="flex items-center gap-1.5 sm:gap-2 group shrink-0">
-         
-          <span className={cn(
+          <img className='w-36' src={logo} alt="logo" />
+          {/* <span className={cn(
             "text-xl sm:text-2xl font-bold tracking-tighter transition-colors",
             isTransparent ? "text-white" : "text-brand"
           )}>
             Lux<span className={isTransparent ? "text-white/80" : "text-text-main"}>Trip</span>
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop Nav */}

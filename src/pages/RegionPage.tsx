@@ -17,13 +17,16 @@ export default function RegionPage() {
   const places = regionServices.filter(s => s.type === 'place');
 
   const regionImages: Record<string, string> = {
-    'Samarkand': 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1920',
-    'Bukhara': 'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1920',
+    'Termiz': 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1920',
+    'Moynaq': 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920',
     'Khiva': 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1920',
-    'Tashkent': 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1920',
-    'Fergana': 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&q=80&w=1920',
-    'Nukus': 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920',
-    'Termez': 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1920'
+    'Kokand': 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&q=80&w=1920',
+    'Namangan': 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1920',
+    'Zaamin': 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1920',
+    'Samarkand': 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1920',
+    'Shahrisabz': 'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1920',
+    'Bukhara': 'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1920',
+    'Tashkent': 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1920'
   };
 
   return (

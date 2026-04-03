@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Plane } from 'lucide-react';
+import { Instagram, Send, Mail, Phone, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
@@ -11,15 +11,17 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
           <Link to="/" className="flex items-center gap-2">
-          
             <span className="text-2xl font-bold tracking-tighter text-brand">Lux<span className="text-text-main">Trip</span></span>
           </Link>
           <p className="text-text-muted text-sm leading-relaxed">
             {t('about.mission')}
           </p>
           <div className="flex gap-4">
-            {[Facebook, Instagram, Twitter].map((Icon, i) => (
-              <a key={i} href="#" className="w-10 h-10 rounded-full bg-bg-light flex items-center justify-center hover:bg-brand hover:text-white transition-all text-brand">
+            {[
+              { Icon: Instagram, href: "https://www.instagram.com/luxtrip.uz?igsh=aWxlamdsa2dxcHhj&utm_source=qr" },
+              { Icon: Send, href: "https://t.me/LuxTripuzz" }
+            ].map(({ Icon, href }, i) => (
+              <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-bg-light flex items-center justify-center hover:bg-brand hover:text-white transition-all text-brand">
                 <Icon className="w-5 h-5" />
               </a>
             ))}
@@ -27,7 +29,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-text-main font-bold mb-6">Quick Links</h4>
+          <h4 className="text-text-main font-bold mb-6">{t('footer.quick_links')}</h4>
           <ul className="space-y-4 text-sm text-text-muted">
             <li><Link to="/" className="hover:text-brand transition-colors">{t('nav.home')}</Link></li>
             <li><Link to="/services" className="hover:text-brand transition-colors">{t('nav.services')}</Link></li>
@@ -37,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-text-main font-bold mb-6">Regions</h4>
+          <h4 className="text-text-main font-bold mb-6">{t('footer.regions')}</h4>
           <ul className="space-y-4 text-sm text-text-muted">
             <li><Link to="/region/Samarkand" className="hover:text-brand transition-colors">Samarkand</Link></li>
             <li><Link to="/region/Bukhara" className="hover:text-brand transition-colors">Bukhara</Link></li>
@@ -47,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-text-main font-bold mb-6">Contact Info</h4>
+          <h4 className="text-text-main font-bold mb-6">{t('footer.contact_info')}</h4>
           <ul className="space-y-4 text-sm text-text-muted">
             <li className="flex items-start gap-3">
               <Phone className="w-4 h-4 text-brand mt-1" />
@@ -59,7 +61,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-brand" />
-              <span>info@luxtrip.uz</span>
+              <span>luxtripuz@gmail.com</span>
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="w-4 h-4 text-brand" />
@@ -70,10 +72,10 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-brand/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-text-muted">
-        <p>© 2026 LuxTrip. All rights reserved.</p>
+        <p>© 2026 LuxTrip. {t('footer.rights')}</p>
         <div className="flex gap-6">
-          <a href="#" className="hover:text-brand transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-brand transition-colors">Terms of Service</a>
+          <a href="#" className="hover:text-brand transition-colors">{t('footer.privacy')}</a>
+          <a href="#" className="hover:text-brand transition-colors">{t('footer.terms')}</a>
         </div>
       </div>
     </footer>

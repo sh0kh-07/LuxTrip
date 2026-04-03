@@ -1,5 +1,5 @@
 export type ServiceType = 'hotel' | 'restaurant' | 'place';
-export type Region = 'Tashkent' | 'Samarkand' | 'Bukhara' | 'Khiva' | 'Khorezm' | 'Fergana' | 'Namangan' | 'Andijan' | 'Jizzakh' | 'Kashkadarya' | 'Navoi' | 'Sirdaryo' | 'Surkhandarya' | 'Karakalpakstan';
+export type Region = 'Termiz' | 'Moynaq' | 'Khiva' | 'Kokand' | 'Namangan' | 'Zaamin' | 'Samarkand' | 'Shahrisabz' | 'Bukhara' | 'Tashkent';
 
 export interface Service {
   id: string;
@@ -15,98 +15,223 @@ export interface Service {
   gallery: string[];
 }
 
-export const REGIONS: Region[] = ['Tashkent', 'Samarkand', 'Bukhara', 'Khiva', 'Khorezm', 'Fergana', 'Namangan', 'Andijan', 'Jizzakh', 'Kashkadarya', 'Navoi', 'Sirdaryo', 'Surkhandarya', 'Karakalpakstan'];
+export const REGIONS: Region[] = ['Termiz', 'Moynaq', 'Khiva', 'Kokand', 'Namangan', 'Zaamin', 'Samarkand', 'Shahrisabz', 'Bukhara', 'Tashkent'];
 
 export const SERVICES: Service[] = [
   {
     id: '1',
-    title: { ru: 'Hyatt Regency Tashkent', en: 'Hyatt Regency Tashkent', uz: 'Hyatt Regency Tashkent' },
+    title: { ru: 'Чимган', en: 'Chimgan', uz: 'Chimyon' },
     region: 'Tashkent',
-    type: 'hotel',
-    price: 250,
-    rating: 4.9,
-    image: 'https://wyndhamtashkent.com/img/6ef580c662559e4b.webp',
+    type: 'place',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1549487563-fb651e604f37?auto=format&fit=crop&q=80&w=1000',
     description: {
-      ru: 'Роскошный отель в самом сердце Ташкента с первоклассным сервисом.',
-      en: 'Luxury hotel in the heart of Tashkent with world-class service.',
-      uz: 'Toshkent markazidagi jahon darajasidagi xizmat koʻrsatuvchi hashamatli mehmonxona.'
+      ru: 'Прекрасный горный курорт недалеко от Ташкента, идеален для зимнего и летнего отдыха.',
+      en: 'A beautiful mountain resort near Tashkent, ideal for winter and summer holidays.',
+      uz: 'Toshkent yaqinidagi goʻzal togʻ kurorti, qishki va yozgi dam olish uchun ajoyib joy.'
     },
-    location: 'Tashkent, Navoi St 1A',
-    phone: '+998 71 207 12 34',
+    location: 'Tashkent Region, Chimgan',
+    phone: 'N/A',
     gallery: [
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000',
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000'
+      'https://images.unsplash.com/photo-1549487563-fb651e604f37?auto=format&fit=crop&q=80&w=1000'
     ]
   },
   {
     id: '2',
-    title: { ru: 'Регистан', en: 'Registan', uz: 'Registon' },
-    region: 'Samarkand',
+    title: { ru: 'Амирсой', en: 'Amirsoy', uz: 'Amirsoy' },
+    region: 'Tashkent',
     type: 'place',
-    rating: 5.0,
-    image: 'https://uzbekistan.travel/storage/app/media/uploaded-files/samarkand-uzbekistan-kupol-mechet-ploshchad.png',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=1000',
     description: {
-      ru: 'Сердце древнего Самарканда, ансамбль из трех медресе.',
-      en: 'The heart of ancient Samarkand, an ensemble of three madrasahs.',
-      uz: 'Qadimiy Samarqandning yuragi, uchta madrasadan iborat ansambl.'
+      ru: 'Современный горнолыжный курорт мирового уровня.',
+      en: 'Modern world-class ski resort.',
+      uz: 'Jahon standartlariga javob beradigan zamonaviy togʻ-changʻi kurorti.'
     },
-    location: 'Samarkand, Registan Square',
+    location: 'Tashkent Region',
     phone: 'N/A',
     gallery: [
-      'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1000',
-      'https://images.unsplash.com/photo-1623851502447-19076046e7f8?auto=format&fit=crop&q=80&w=1000'
+      'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=1000'
     ]
   },
   {
     id: '3',
-    title: { ru: 'Ресторан Old City', en: 'Old City Restaurant', uz: 'Old City Restorani' },
-    region: 'Bukhara',
-    type: 'restaurant',
-    price: 30,
+    title: { ru: 'Ходжамушкент', en: 'Hojamushkent', uz: 'Xo\'jamushkent' },
+    region: 'Namangan',
+    type: 'place',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Историческое и святое место, окруженное красивой природой.',
+      en: 'Historical and sacred place surrounded by beautiful nature.',
+      uz: 'Goʻzal tabiat bilan oʻralgan tarixiy va muqaddas joy.'
+    },
+    location: 'Namangan Region',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '4',
+    title: { ru: 'Баландчакир', en: 'Balanchaqir', uz: 'Balandchaqir' },
+    region: 'Zaamin',
+    type: 'place',
+    rating: 4.6,
+    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Красивое природное место.',
+      en: 'Beautiful natural spot.',
+      uz: 'Ajoyib tabiat maskani.'
+    },
+    location: 'Zaamin',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '5',
+    title: { ru: 'Зомин', en: 'Zaamin', uz: 'Zomin' },
+    region: 'Zaamin',
+    type: 'place',
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Узбекская Швейцария с хвойными лесами и чистейшим воздухом.',
+      en: 'Uzbek Switzerland with coniferous forests and purest air.',
+      uz: 'Oʻzbekiston Shveytsariyasi, archazorlar va musaffo havo maskani.'
+    },
+    location: 'Zaamin National Park',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '6',
+    title: { ru: 'Озеро Ачиқкўл', en: 'Achiqkol', uz: 'Achiqko\'l' },
+    region: 'Khiva',
+    type: 'place',
+    rating: 4.5,
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Живописное озеро, идеальное для отдыха.',
+      en: 'Picturesque lake, ideal for relaxation.',
+      uz: 'Dam olish uchun ajoyib boʻlgan goʻzal koʻl.'
+    },
+    location: 'Uzbekistan',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '7',
+    title: { ru: 'Водопад Сангардак', en: 'Sangardak Waterfall', uz: 'Sangardak sharsharasi' },
+    region: 'Termiz',
+    type: 'place',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Один из самых красивых водопадов Узбекистана.',
+      en: 'One of the most beautiful waterfalls in Uzbekistan.',
+      uz: 'Oʻzbekistondagi eng goʻzal sharsharalardan biri.'
+    },
+    location: 'Surkhandarya Region',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '8',
+    title: { ru: 'Бахмал', en: 'Baxmal', uz: 'Baxmal' },
+    region: 'Zaamin',
+    type: 'place',
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1623851502447-19076046e7f8?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Горный район с уникальной природой и яблоневыми садами.',
+      en: 'Mountainous area with unique nature and apple orchards.',
+      uz: 'Noyob tabiat va olma bogʻlariga ega togʻli hudud.'
+    },
+    location: 'Jizzakh Region',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1623851502447-19076046e7f8?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '9',
+    title: { ru: 'Сувтушар', en: 'Suvtushar', uz: 'Suvtishlar' },
+    region: 'Shahrisabz',
+    type: 'place',
+    rating: 4.6,
+    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Красивый водный источник в горах.',
+      en: 'Beautiful water spring in the mountains.',
+      uz: 'Togʻlardagi goʻzal suv manbai.'
+    },
+    location: 'Kashkadarya Region',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '10',
+    title: { ru: 'Озеро Айдаркуль', en: 'Aydarkul Lake', uz: 'Aydarkal' },
+    region: 'Zaamin',
+    type: 'place',
+    rating: 4.8,
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000',
+    description: {
+      ru: 'Огромное озеро посреди пустыни, прекрасное место для рыбалки и отдыха.',
+      en: 'A huge lake in the middle of the desert, a beautiful place for fishing and recreation.',
+      uz: 'Choʻl oʻrtasidagi ulkan koʻl, baliq ovlash va dam olish uchun ajoyib joy.'
+    },
+    location: 'Jizzakh / Navoi Region',
+    phone: 'N/A',
+    gallery: [
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000'
+    ]
+  },
+  {
+    id: '11',
+    title: { ru: 'Ходжамайхана', en: 'Xojamayxona', uz: 'Xojamayxona' },
+    region: 'Termiz',
+    type: 'place',
     rating: 4.7,
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000',
     description: {
-      ru: 'Традиционная бухарская кухня в аутентичной атмосфере.',
-      en: 'Traditional Bukhara cuisine in an authentic atmosphere.',
-      uz: 'Haqiqiy atmosferada anʼanaviy Buxoro taomlari.'
+      ru: 'Целебный источник в живописном ущелье.',
+      en: 'Healing spring in a picturesque gorge.',
+      uz: 'Goʻzal daradagi shifobaxsh buloq.'
     },
-    location: 'Bukhara, Old City center',
-    phone: '+998 90 123 45 67',
+    location: 'Surkhandarya Region',
+    phone: 'N/A',
     gallery: [
       'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000'
     ]
   },
   {
-    id: '4',
-    title: { ru: 'Ичан-Кала', en: 'Itchan Kala', uz: 'Ichan-Qala' },
-    region: 'Khiva',
+    id: '12',
+    title: { ru: 'Албарсой', en: 'Albarsoy', uz: 'Albarsoy' },
+    region: 'Tashkent',
     type: 'place',
-    rating: 4.9,
-    image: 'https://ychef.files.bbci.co.uk/1280x720/p0h8l984.jpg',
+    rating: 4.6,
+    image: 'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1000',
     description: {
-      ru: 'Внутренний город Хивы, объект Всемирного наследия ЮНЕСКО.',
-      en: 'The inner city of Khiva, a UNESCO World Heritage site.',
-      uz: 'Xivaning ichki shahri, YUNESKOning Butunjahon merosi obyekti.'
+      ru: 'Горная река с красивыми видами.',
+      en: 'Mountain river with beautiful views.',
+      uz: 'Goʻzal manzarali togʻ daryosi.'
     },
-    location: 'Khiva, Itchan Kala',
+    location: 'Tashkent Region',
     phone: 'N/A',
-    gallery: ['https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1000']
-  },
-  {
-    id: '5',
-    title: { ru: 'Hotel Samarkand Safar', en: 'Hotel Samarkand Safar', uz: 'Hotel Samarkand Safar' },
-    region: 'Samarkand',
-    type: 'hotel',
-    price: 80,
-    rating: 4.5,
-    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000',
-    description: {
-      ru: 'Уютный отель с видом на древние памятники.',
-      en: 'Cozy hotel with a view of ancient monuments.',
-      uz: 'Qadimiy yodgorliklar manzarali shinam mehmonxona.'
-    },
-    location: 'Samarkand, University Blvd',
-    phone: '+998 66 233 00 00',
-    gallery: ['https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000']
+    gallery: [
+      'https://images.unsplash.com/photo-1580637250188-062e17707f45?auto=format&fit=crop&q=80&w=1000'
+    ]
   }
 ];

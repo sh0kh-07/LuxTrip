@@ -53,7 +53,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg md:text-xl mb-0.5 md:mb-1">{t('contact.email')}</h4>
-                  <p className="text-text-muted text-base md:text-lg">info@luxtrip.uz</p>
+                  <p className="text-text-muted text-base md:text-lg">luxtripuz@gmail.com</p>
                   <p className="text-text-muted/60 text-xs md:text-sm">{t('contact.reply_time')}</p>
                 </div>
               </div>
