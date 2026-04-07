@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../lib/utils';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
-import logo from '../logo.png';
+import logo from '../Logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
